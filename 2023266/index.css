@@ -1,0 +1,16 @@
+* {
+    font-family: "궁서체";
+    background-color: cornflowerblue;
+}
+
+img {
+    width: 300px;
+}
+
+p {
+    width: 300px;
+}
+
+.divdiv>h2 {
+    background-color: springgreen;
+}
