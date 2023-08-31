@@ -1,0 +1,41 @@
+* {
+    font-family: "HY견고딕";
+    background-color: blanchedalmond;
+}
+
+.문명 {
+    color: cadetblue;
+}
+
+a {
+    display: block;
+    width: 300px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+}
+
+a:link {
+    font-size: 2rem;
+}
+
+a:visited {
+    color: darkkhaki;
+}
+
+a:hover {
+    background-color: aquamarine;
+    color: whitesmoke;
+}
+
+[class] {
+    color: yellowgreen;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.sid meier:first-child {
+    color: oldlace;
+}
