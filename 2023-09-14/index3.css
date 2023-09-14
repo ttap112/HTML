@@ -1,0 +1,58 @@
+div {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+span {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    font-size: 20px;
+    display: block;
+}
+
+.box1 {
+    width: 600px;
+    height: 200px;
+    background-color: rgba(243, 225, 126, 0.788);
+}
+
+.box1 div {
+    border: 2px solid black;
+    display: inline-block;
+    position: relative;
+}
+
+.a {
+    background-color: rgb(250, 125, 125);
+    box-sizing: border-box;
+    padding: 20px;
+    left: 15px;
+    position: static;
+}
+
+.b {
+    background-color: rgb(64, 228, 64);
+    top: 0px;
+    left: 15px;
+    position: absolute;
+}
+
+.c {
+    background-color: rgb(108, 108, 255);
+    left: 15px;
+    position: relative;
+}
+
+.c:hover {
+    background-color: aquamarine;
+}
+
+li {
+    float: left;
+    list-style: none;
+    margin: 0 10px;
+}
