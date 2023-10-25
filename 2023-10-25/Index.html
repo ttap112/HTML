@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+
+        var Kg = prompt("당신의 체중 : ");
+        var m = prompt("당신의 키는(cm를 M를 반환하여 입력할 것.) : ");
+        var BMI = Kg / (m * m);
+
+        if (BMI < 18.5) {
+            document.write("저체중")
+        } else if (BMI < 25) {
+            document.write("정상")
+        } else if (BMI < 30) {
+            document.write("과체중")
+        } else {
+            document.write("비만")
+        }
+
+    </script>
+
+</body>
+
+</html>
