@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        let Exam = [99, 99, 88, 77]
+
+        for (let i = 0; i < Exam.length; i++) {
+            document.write(`${i} : ${Exam[i]} <br>`)
+        }
+
+        let Exam2 = {
+            "kor": 90,
+            "eng": 100,
+            "math": 99,
+            "DB": 80
+        }
+
+        for (let i in Exam2) {
+            if (i == "DB") {
+                break;
+            }
+            document.write(`${i} : ${Exam2[i]} <br>`);
+        }
+
+    </script>
+
+</body>
+
+</html>
