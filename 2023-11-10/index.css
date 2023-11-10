@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+div#header {
+    width: 1000px;
+}
+
+div#main {
+    width: 1000px;
+}
+
+div.info_title {
+    font-size: 15px;
+    background-color: #aeaaaa;
+    width: 900px;
+    height: 50px;
+}
+
+div.info_title_detail {
+    width: 800px;
+    height: 50px;
+    background-color: #e4e3e3;
+}
+
+th,
+td {
+    border: 1px solid #444444;
+    border: 1px solid #444444;
+    padding-top: 10px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
