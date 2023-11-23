@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="Dark" onclick="Dark()">DarkMode</button>
+    <!-- <button id="White" onclick="white()">WhiteMode</button> -->
+    <img src="https://image.istarbucks.co.kr/common/img/main/rewards-logo.png;" alt=" 스타벅스 로고">
+    <h1>스타벅스만의 특별한 혜택, 스타벅스 리워드</h1>
+    <p>
+        스타벅스 회원이세요?
+        로그인을 통해 나만의 리워드를 확인해보세요.
+        스타벅스 회원이 아니세요?
+        가입을 통해 리워드 혜택을 즐기세요.
+    </p>
+    <button class="sign_up">회원가입</button>
+    <button class="sign_in">로그인</button>
+
+    <script>
+
+
+        function Dark() {
+            let btn = document.getElementsByTagName('button')
+            if (btn[0].innerHTML == 'DarkMode') {
+                document.body.style.backgroundColor = '#102517';
+                document.body.style.color = 'white'
+                for (let i = 0; i < btn.length; i++) {
+                    btn[i].style.color = 'black'
+                    btn[i].style.border = '2px solid black'
+                }
+                btn[0].innerHTML = 'WhiteMode'
+            } else {
+                document.body.style.backgroundColor = '#FFFFFF'
+                document.body.style.color = 'black'
+                for (let i = 0; i < btn.length; i++) {
+                    btn[i].style.color = 'black'
+                    btn[i].style.border = '2px solid black'
+                }
+                btn[0].innerHTML = 'DarkMode'
+
+            }
+        }
+
+
+    </script>
+
+
+</body>
+
+</html>

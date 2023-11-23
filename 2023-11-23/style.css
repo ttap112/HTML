@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    margin-left: 190px;
+    display: inline;
+}
+
+body {
+    color: aliceblue;
+    background-color: #174e17;
+}
+
+h1,
+p {
+    padding: 4px;
+    font-weight: bold;
+}
+
+p {
+    padding: 10px;
+    width: 500px;
+    text-align: center;
+    margin-left: 50px
+}
+
+.sign_up {
+    margin-left: 160px;
+}
+
+button {
+    padding: 8px 32px;
+    font-size: 14pt;
+    font-weight: bold;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    background-color: rgb(251, 255, 251);
+    color: rgb(0, 145, 230);
+}
+
+button:hover {
+    background-color: rgb(172, 159, 159);
+    color: rgb(255, 254, 252);
+}
+
+#Dark {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 10px;
+    width: 170px;
+    color: rgb(0, 145, 230);
+}
+
+/* #White {
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    margin: 10px;
+    width: 170px;
+    color: rgb(0, 145, 230);
+} */
