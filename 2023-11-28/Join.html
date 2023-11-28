@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="Join_style.css">
+</head>
+
+<body>
+
+    <form action="#">
+        <div>
+            <span class="id">아이디</span>
+            <input type="text" name="id">
+        </div>
+
+        <div>
+            <span class="pass">비밀번호</span>
+            <input type="password" name="pw">
+            <input type="button" value="눈" onclick="eye()">
+        </div>
+
+        <div>
+            <span class="Nickname">닉네임</span>
+            <input type="text" name="Name">
+            <input type="button" value="중복확인" onclick="same()">
+        </div>
+
+        <div>
+            <span class="name">이름</span>
+            <input type="text" name="Name">
+        </div>
+
+        <div>
+            <span class="gender">성별</span>
+            <input type="radio" name="gender" value="Male"> 남자
+            <input type="radio" name="gender" value="Female"> 여자
+            <input type="radio" name="gender" value="other"> 기타
+        </div>
+
+        <div>
+            <span class="interest">관심사</span>
+            <select name="interest">
+                <option value="">--------------</option>
+                <option value="">게임</option>
+                <option value="">음악</option>
+                <option value="">운동</option>
+                <option value="">영화</option>
+                <option value="">도서</option>
+                <option value="">기타</option>
+
+            </select>
+        </div>
+
+        <div class="sing_up">
+            <input type="submit" value="가입하기">
+            <input type="reset" value="초기화">
+        </div>
+
+
+
+    </form>
+
+</body>
+
+</html>
